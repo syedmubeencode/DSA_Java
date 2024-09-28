@@ -1,0 +1,134 @@
+		
+							@SpringBootApplication
+		
+This is a combination of three annotations:
+
+	@Configuration (to define configuration classes)
+	@EnableAutoConfiguration (to enable auto-configuration)
+	@ComponentScan (to scan for components and beans in the package)
+
+* It’s placed on the main class to indicate it is the entry point for the Spring Boot application.
+
+
+---------------------------------------------------------------------------------------------------
+
+							@RestController
+							
+* A combination of @Controller and @ResponseBody.
+* It indicates that the class is a web controller and that the return value of methods should be written directly to the HTTP response body as JSON or XML.
+
+
+---------------------------------------------------------------------------------------------------
+
+					@RequestMapping / @GetMapping / @PostMapping
+					
+These annotations map HTTP requests to handler methods in your controller.
+
+	@RequestMapping is a general-purpose annotation for mapping any type of HTTP request.
+	@GetMapping maps HTTP GET requests.
+	@PostMapping maps HTTP POST requests.
+	
+---------------------------------------------------------------------------------------------------
+
+								@Autowired
+								
+This is used for dependency injection. It allows Spring to automatically inject dependencies (beans) into the object.
+
+Ex:
+
+@Service
+public class MyService {
+    
+    @Autowired
+    private MyRepository myRepository;
+    
+    // Use myRepository to interact with the database
+}
+
+
+---------------------------------------------------------------------------------------------------
+
+					@Service / @Component / @Repository
+					
+These are used to define beans in the Spring context:
+
+	@Service: Indicates a service layer component.
+	@Repository: Used for the persistence layer and indicates that the class interacts with the database.
+	@Component: A generic stereotype for any Spring-managed component.
+	
+---------------------------------------------------------------------------------------------------
+	
+							@Configuration
+							
+Used to define configuration classes. Beans can be defined inside this class using the @Bean annotation.
+
+Ex:
+
+@Configuration
+public class MyConfig {
+
+    @Bean
+    public MyService myService() {
+        return new MyService();
+    }
+}
+
+
+---------------------------------------------------------------------------------------------------
+
+   							@Bean
+   							
+Used inside @Configuration classes to define a bean manually.
+
+Ex:
+
+@Bean
+public MyService myService() {
+    return new MyService();
+}
+
+
+---------------------------------------------------------------------------------------------------
+
+							@Entity
+							
+This is used to map a class to a database table in JPA/Hibernate. Each instance of the class represents a row in the table.
+
+Ex:
+
+
+
+---------------------------------------------------------------------------------------------------
+
+@Configuration
+public class MyConfig {
+
+    @Bean
+    public MyService myService() {
+        return new MyService();
+    }
+}
+
+---------------------------------------------------------------------------------------------------
+
+@Configuration
+public class MyConfig {
+
+    @Bean
+    public MyService myService() {
+        return new MyService();
+    }
+}
+
+---------------------------------------------------------------------------------------------------
+
+@Configuration
+public class MyConfig {
+
+    @Bean
+    public MyService myService() {
+        return new MyService();
+    }
+}
+	
+
