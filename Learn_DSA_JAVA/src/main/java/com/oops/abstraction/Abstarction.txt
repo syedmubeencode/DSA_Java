@@ -1,5 +1,0 @@
- 										
- 										  Abstraction
- 										  
-* Abstraction hides the complex implementation details and shows only essential features to the user. 
-* It can be achieved using abstract classes and interfaces.
