@@ -1,0 +1,46 @@
+
+											Asymptotic Notation
+				
+* In computer science, asymptotic notation is used to describe the efficiency of algorithms for large inputs. It is the mathematical notation of the growth rate of an algorithm’s time complexity. 
+* The most commonly used notations are O-notation (Big O), Ω-notation (Omega), and Θ-notation (Theta). Big O notation provides an upper bound of the complexity in the worst-case, giving an approximated maximum amount of time taken by an algorithm for any input.
+* Omega notation provides a lower bound of the complexity in the best-case, whereas Theta notation defines a tight bound giving both the lower and upper bound.
+* These notational systems allow for a comparison of the efficiency of algorithms without considering the effect of hardware or software related factors.
+
+			There are three primary types of asymptotic notations:
+			
+							Big O Notation (O)
+		
+	* Purpose: Describes the upper bound or worst-case time complexity of an algorithm.
+	* Interpretation: In the worst case, the running time or space required by an algorithm will not exceed a certain function.
+	* Example: If an algorithm’s time complexity is 𝑂 ( 𝑛 2 ) O(n 2 ), it means that in the worst case, the algorithm will take no more than 𝑛 2 n 2 time units to complete, where 𝑛 n is the size of the input.
+Example: 
+Linear Search: O(n) 
+Binary Search: O(logn) 
+Bubble Sort: 𝑂 ( 𝑛 2 )
+
+		
+							Omega Notation (Ω)
+		
+	* Purpose: Describes the lower bound or best-case time complexity of an algorithm.
+	* Interpretation: In the best case, the running time or space required by an algorithm will take at least a certain function.
+	* Example: If an algorithm’s time complexity is Ω ( 𝑛 ) Ω(n), it means that the algorithm will take at least 𝑛 n time units to complete, no matter what.
+	* Use Case: To measure the minimum time complexity of the algorithm, showing the best-case performance.
+Example: 
+Insertion Sort (Best Case with sorted input): Ω ( 𝑛 ) Ω(n)
+
+							Theta Notation (Θ)
+		
+	* Purpose: Describes the tight bound of an algorithm.
+	* Interpretation: It represents both the upper and lower bounds (i.e., the exact asymptotic behavior). It provides the best and worst case in one expression.
+	* Example: If an algorithm’s time complexity is Θ ( 𝑛 log ⁡ 𝑛 ) Θ(nlogn), it means that the algorithm’s running time will always be proportional to 𝑛 log ⁡ 𝑛 nlogn, both in the worst case and the best case.
+	* Use Case: To describe an algorithm's exact complexity when best-case and worst-case behaviors are the same.
+Example: 
+Merge Sort: Θ ( 𝑛 log ⁡ 𝑛 ) Θ(nlogn)
+
+
+								Summary of Notations:
+								
+	Notation					Definition							Description
+	O(f(n))				Upper bound (Worst case)				Time will not exceed f(n)
+	Ω(f(n))				Lower bound (Best case)					Time will be at least f(n)
+	Θ(f(n))				Tight bound (Both best and worst)		Time is exactly f(n)
