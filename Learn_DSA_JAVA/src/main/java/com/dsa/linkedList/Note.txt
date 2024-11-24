@@ -1,6 +1,6 @@
 Basic Operations
-Insert at the beginning.
-Insert at the end (append).
+Insert at the beginning (DoneNov24[12PM])
+Insert at the end (append) (DoneNov24[12:34PM])
 Insert at a specific position.
 Delete from the beginning.
 Delete from the end.
