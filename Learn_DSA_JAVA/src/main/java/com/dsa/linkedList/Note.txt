@@ -1,0 +1,35 @@
+Basic Operations
+Insert at the beginning.
+Insert at the end (append).
+Insert at a specific position.
+Delete from the beginning.
+Delete from the end.
+Delete from a specific position.
+Search for an element.
+Get the length of the list.
+Traverse and print the list.
+
+
+Intermediate Operations
+Reverse the linked list.
+Detect a loop in the list.
+Remove duplicates from a sorted list.
+Find the middle node of the list.
+Remove the N-th node from the end.
+Merge two sorted linked lists.
+
+
+Advanced Operations
+Check if the list is a palindrome.
+Rotate the list by k positions.
+Convert the list into a circular linked list.
+Split the list into two halves.
+Find the intersection point of two linked lists.
+Flatten a multi-level linked list.
+
+
+Utility Operations
+Convert the list into an array.
+Clone the list (deep copy).
+Sort the linked list.
+Swap two nodes in the list (without swapping data).

@@ -3,17 +3,17 @@ package com.dsa.linkedList;
 public class LinkedList {
 	public static void main(String[] args) {
 		LinkedList list = new LinkedList();
-		
+
 		list.insertAtBeginning(0);
-		
+
 		list.display();
 	}
-	
+
 	Node head;
 
 	// Insert at the beginning
 	public void insertAtBeginning(int data) {
-		Node newNode = new Node(data);  // This common, you have to create this. 
+		Node newNode = new Node(data); // This common, you have to create this.
 		newNode.next = head;
 		head = newNode;
 	}
