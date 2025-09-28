@@ -1,6 +1,6 @@
 
 #03/10
-				HashTable
+				HashTable 
 				
 * Hash tables are an essential data structure for solving a wide range of problems due to their efficient average time complexity for insertion, deletion, and lookup operations (typically O(1)).
 * Hash table is nothing but hash map.
