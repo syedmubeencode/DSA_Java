@@ -13,7 +13,6 @@ You may assume that there is exactly **one unique solution** for every input.
 ## Examples
 
 **Example 1**  
-```text
 Input: nums = [3, 4, 5, 6], target = 7
 Output: [0, 1]
 Explanation: nums[0] + nums[1] == 7
