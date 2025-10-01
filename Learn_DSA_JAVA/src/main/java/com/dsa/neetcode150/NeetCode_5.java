@@ -32,9 +32,9 @@ public class NeetCode_5 {
 		int k = 2;
 
 		System.out.println(groupSolutionDSA(true, "method", nums, k)); // ✅ HashMap + Heap
-		System.out.println(groupSolutionDSA(true, "core", nums, k)); // ✅ Sorting by frequency
-		System.out.println(groupSolutionDSA(true, "stream", nums, k)); // ✅ Streams
-		System.out.println(groupSolutionDSA(true, "recursion", nums, k)); // ✅ Recursion
+//		System.out.println(groupSolutionDSA(true, "core", nums, k)); // ✅ Sorting by frequency
+//		System.out.println(groupSolutionDSA(true, "stream", nums, k)); // ✅ Streams
+//		System.out.println(groupSolutionDSA(true, "recursion", nums, k)); // ✅ Recursion
 	}
 
 	private static List<Integer> groupSolutionDSA(boolean start, String method, int[] nums, int k) {
